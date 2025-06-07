@@ -28,6 +28,7 @@
 // #include <zmq.hpp> #include <nlohmann/json.hpp>
 // #include <zmqpp/zmqpp.hpp>
 // sudo apt-get install libzmqpp-dev
+// g++ -c -Wall -O0 -g -fPIC -std=gnu++14 -o server_client server_client.cpp
 
 int main() 
 {
