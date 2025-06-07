@@ -3,6 +3,30 @@
 
 #include <zmq.hpp>
 
+// https://github.com/zeromq/cppzmq
+// https://zeromq.org/get-started/
+// https://zeromq.org/languages/c/
+// https://zeromq.org/get-started/?language=cpp&library=zmqpp#
+// https://github.com/zeromq/zmqpp
+// https://stackoverflow.com/questions/14233887/zmq-compilation-problems-for-c-examples
+// https://github.com/uzh-rpg/flightmare/issues/170
+// https://johnfarrier.com/zeromqs-req-rep-pattern-magic-lightning-fast-c-python-messaging/
+// https://github.com/nlohmann/json/issues/1703
+// https://ogbe.net/blog/zmq_helloworld
+// https://launchpad.net/zmqpp/+packages
+// https://www.ubuntuupdates.org/package/core/focal/universe/base/libzmqpp-dev
+// https://zeromq.org/get-started/?language=cpp&library=cppzmq
+
+// sudo apt-get install gnutls-bin
+// sudo apt-get install libzmq3-dev
+// sudo apt-get install libczmq-dev
+// sudo apt-get install nlohmann-json3-dev
+// g++ -o client -std=gnu++14 client.cpp -lzmq
+// g++ -o server -std=gnu++14 server.cpp -lzmq
+// #include <zmq.hpp> #include <nlohmann/json.hpp>
+// #include <zmqpp/zmqpp.hpp>
+// sudo apt-get install libzmqpp-dev
+
 int main()
 {
     // initialize the zmq context with a single IO thread
